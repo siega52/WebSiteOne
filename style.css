@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.award {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    min-height: 48px;
+  }
+.award__p {
+    font-size: 15px;
+    color: #4b5563;
+  }
+.award__images {
+    cursor: pointer;
+  }
+.award__img {
+    position: absolute;
+    right: 272px;
+    top: 14px;
+}
+
+.wrapp{
+    max-width: 1280px;
+    height: 72px;
+    margin: auto;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header start */
+.header{
+    background-color: #00353b;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header_card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header_menu img{
+    width: 25px;
+    height: 25px;
+}
+.header_menu a{
+    font-size: 17px;
+}
+.header_btn {
+    padding: 13px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* header end */
+
+.main {
+    background-color: #00353b;
+}
+/* section 1  start*/
+
+.section {
+    padding: 80px 0px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.conten_info {
+    width: 100%;
+
+}
+.content_video {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+.content_h1 {
+    color: white;
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.content_text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.content_button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.content_btn1 {
+    background-color: #22a45a;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.content_btn2 {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.content_btn2 p{
+    color: white;
+    font-size: 16px;
+}
+
+.content_btn2 img{
+    width: 25px;
+    height: 25px;
+}
+/* section 1 end */
+
