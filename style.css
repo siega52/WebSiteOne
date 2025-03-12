@@ -118,7 +118,7 @@ a{
     color: white;
     font-size: 16px;
 }
-.content_btn2 {
+#content_btn2 {
     display: flex;
     align-items: center;
     background-color: transparent;
@@ -127,17 +127,17 @@ a{
     cursor: pointer;
 }
 
-.content_btn2 p{
+#content_btn2 p{
     color: white;
     font-size: 16px;
 }
 
-.content_btn2 img{
+#content_btn2 img{
     width: 25px;
     height: 25px;
 }
 
-.content_videos{
+#content_videos{
     width: 600px;
     height: 640px;
 }
@@ -479,6 +479,7 @@ a{
 
 /* section 5 start */
 .join {
+    padding-bottom: 128px;
 }
 .join_content {
     display: flex;
@@ -528,4 +529,78 @@ a{
     min-height: 440px;
     border-radius: 20px;
 }
+
+.learn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.learn_card {
+    max-width: 378px;
+}
+.learn_img {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: #22a45a;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 32px;
+}
+.learn_img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.learn_h {
+    color: #1f2937;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+.learn_p {
+    font-size: 16px;
+    color: #4b5563;
+}
+
 /* section 5 end */
+
+/* section 6 start */
+
+.grow {
+    padding-bottom: 128px;
+}
+.grow_content {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.grow_a {
+    display: inline-block;
+    background-color: #fcd8ca;
+    font-size: 14px;
+    color: #1f2937;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-bottom: 11px;
+}
+.grow_h {
+    max-width: 691px;
+    line-height: 57px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    color: #1f2937;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+.grow_p {
+    color: #4b5563;
+    font-size: 18px;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+/* section 6 end */
