@@ -10,7 +10,7 @@ body{
 
 .wrapp{
     max-width: 1280px;
-    height: 72px;
+    height: 60px;
     margin: auto;
 }
 
@@ -29,6 +29,10 @@ a{
 /* header start */
 .header{
     background-color: #000000;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
 }
 
 .header_nav{
@@ -48,19 +52,19 @@ a{
     gap: 8px;
 }
 .header_menu img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .header_menu a{
-    font-size: 17px;
+    font-size: 15px;
 }
 .header_btn {
-    padding: 13px 25px;
+    padding: 10px 20px;
     background-color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
 }
 /* header end */
 
@@ -540,11 +544,13 @@ a{
 }
 .learn_img {
     position: relative;
+    align-items: center;
     width: 48px;
     height: 48px;
     background-color: #22a45a;
     border-radius: 50%;
     padding: 8px;
+    margin: 0 auto;
     margin-bottom: 32px;
 }
 .learn_img img{
@@ -554,6 +560,7 @@ a{
     transform: translate(-50%, -50%);
 }
 .learn_h {
+    text-align: center;
     color: #1f2937;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
@@ -562,6 +569,7 @@ a{
 
 }
 .learn_p {
+    text-align: center;
     font-size: 16px;
     color: #4b5563;
 }
@@ -603,4 +611,59 @@ a{
     margin: 0 auto;
 }
 
+.grow_wrapper {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 128px;
+}
+.grow_wrapp_left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+.grow_wrapp_card_one{
+    margin-bottom: 50px;
+}
+.grow_wrapp_card_one img{
+    margin-bottom: 20px;
+}
+.grow_wrapp_h {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color:#1f2937;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.grow_wrapp_p {
+    color: #4b4b4b;
+    font-size: 16px;
+}
+.grow_wrapp_card_two img{
+    margin-bottom: 20px;
+}
+.grow_wrapp_center img{
+    width: 504px;
+    height: 600px;
+    border-radius: 20px;
+}
+.grow_wrapp_right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
 /* section 6 end */
+
+/* section 7 start */
+.reviews_test{
+    background-color: #fcd8ca;
+    padding: 98px;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
+/* section 7 end */
