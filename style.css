@@ -579,7 +579,7 @@ a{
 /* section 6 start */
 
 .grow {
-    padding-bottom: 128px;
+    padding-bottom: 356px;
 }
 .grow_content {
     text-align: center;
@@ -662,8 +662,101 @@ a{
 /* section 7 start */
 .reviews_test{
     background-color: #fcd8ca;
-    padding: 98px;
+    padding: 50px 0px;
     transform: translateY(-50%);
     border-radius: 20px;
 }
+
+.reviews_test_content {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.reviews_test_a {
+    display: inline-block;
+    background-color: white;
+    color: #4b4b4b;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.reviews_test_h {
+    color: #1f2937;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.reviews_test_p {
+    color: #4b4b4b;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.reviews_test_cards {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    overflow-x: auto;;
+    /* padding: 20px 0; */
+}
+
+.reviews_test_cards::-webkit-scrollbar {
+    width: 5px;
+}
+
+.reviews_test_cards::-webkit-scrollbar-track {
+    background-color: #fcd8ca;
+}
+.reviews_test_cards::-webkit-scrollbar-thumb {
+    background-color:#00353b;
+    border-radius: 10px;
+}
+
+.reviews_test_card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 400px;
+    margin-bottom: 10px;
+
+}
+.reviews_test_rating {
+}
+.reviews_icon-star-full{
+    color: black;
+    font-size: 25px;
+}
+.reviews_test_rat {
+    margin-bottom: 25px;
+}
+.reviews_test_person{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.reviews_test_person_img{
+    width: 48px;
+    height: 48px;
+}
+.reviews_test_person_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reviews_test_rat_p {
+    color: #4b4b4b;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.reviews_test_rat_h5 {
+    color: #1f2937;
+    font-size: 16px;
+}
+.reviews_test_rat_p2 {
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
 /* section 7 end */
