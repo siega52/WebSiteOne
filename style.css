@@ -778,27 +778,99 @@ a{
     color: white;
     margin-bottom: 30px;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 15px;
 }
 .start_btn1 {
     display: inline-block;
-    padding: 15px 15px;
-    font-size: 14px;
+    padding: 13px 25px;
+    font-size: 16px;
     background-color: #22a45a;
     border-radius: 10px;
-    margin-right: 5px;
 }
 .start_btn2 {
     display: inline-block;
-    padding: 15px 15px;
-    font-size: 14px;
+    padding: 13px 25px;
+    font-size: 16px;
     color: #000000;
     background-color: white;
     border-radius: 10px;
-    margin-left: 5px;
 }
 
 .start_a{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 /* section 8 end */
+
+/* section 9 start */
+.footer {
+}
+.join_footer {
+}
+.join_footer_h {
+}
+.form_btn {
+}
+.form_btn_a {
+}
+.join_footer_p {
+}
+.pages {
+}
+.pages_home {
+}
+.pages_about {
+}
+.pages_contact {
+}
+.pages_blog {
+}
+.pages_courses {
+}
+.pages_teachers {
+}
+.cms {
+}
+.cms_blog_post {
+}
+.cms_blog_cate {
+}
+.cms_courses_single {
+}
+.cms_courses_cate {
+}
+.cms_product_page {
+}
+.cms_product_care {
+}
+.cms_teachers {
+}
+.cms_episode {
+}
+.account {
+}
+.account_login {
+}
+.account_sign {
+}
+.account_forgot {
+}
+.account_reset {
+}
+.account_email {
+}
+.utility {
+}
+.utilitu_style {
+}
+.utilitu_changelog {
+}
+.utilitu_licenses {
+}
+.utilitu_404 {
+}
+.utilitu_password {
+}
+/* section 9 end */
