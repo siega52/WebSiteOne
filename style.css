@@ -766,7 +766,7 @@ a{
     max-width: 1000px;
     margin: 0 auto;
     background-color: #00353b;
-    padding: 128px;
+    padding-bottom: 256px;
 }
 .start_h {
     color: white;
@@ -806,71 +806,120 @@ a{
 
 /* section 9 start */
 .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 128px;
 }
 .join_footer {
+    max-width: 380px;
 }
 .join_footer_h {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 .form_btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+.form_btn input{
+    border: none;
+    padding: 13px 25px;
+    border-radius: 10px;
 }
 .form_btn_a {
+    padding: 13px 25px;
+    background-color: #22a45a;
+    border-radius: 10px;
 }
 .join_footer_p {
+    color: white;
+    font-size: 14px;
+}
+.footer_content{
+    display: flex;
+    gap: 120px;
+}
+.pages_p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.cms_p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.account_p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.utility_p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
 }
 .pages {
+    display: flex;
+    flex-direction: column;
 }
-.pages_home {
-}
-.pages_about {
-}
-.pages_contact {
-}
-.pages_blog {
-}
-.pages_courses {
-}
-.pages_teachers {
+.pages_a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 .cms {
+    display: flex;
+    flex-direction: column;
 }
-.cms_blog_post {
-}
-.cms_blog_cate {
-}
-.cms_courses_single {
-}
-.cms_courses_cate {
-}
-.cms_product_page {
-}
-.cms_product_care {
-}
-.cms_teachers {
-}
-.cms_episode {
+.cms_a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 .account {
+    display: flex;
+    flex-direction: column;
 }
-.account_login {
-}
-.account_sign {
-}
-.account_forgot {
-}
-.account_reset {
-}
-.account_email {
+.account_a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 .utility {
+    display: flex;
+    flex-direction: column;
 }
-.utilitu_style {
-}
-.utilitu_changelog {
-}
-.utilitu_licenses {
-}
-.utilitu_404 {
-}
-.utilitu_password {
+.utilitu_a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 /* section 9 end */
+
+/* section 10 start */
+.social {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.social_tg {
+    font-size: 16px;
+    font-weight: 300;
+}
+/* section 10 end */
