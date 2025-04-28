@@ -923,3 +923,162 @@ a{
     font-weight: 300;
 }
 /* section 10 end */
+
+@media (max-width: 1300px) {
+    .wrapp{
+        padding: 0 10px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .conten_info{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_h1{
+        font-size: 50px;
+    }
+    .about{
+        padding: 30px 24px;
+    }
+    .premium{
+        display: flex;
+        flex-direction: column;
+    }
+    .premium_content{
+        text-align: center;
+    }
+    .premium_p{
+        text-align: center;
+    }
+    .premium_buttons{
+        justify-content: center;
+    }
+    
+    .premium_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .premium_content_2{
+        text-align: center;
+    }
+    .premium_p_2{
+        text-align: center;
+    }
+    .premium_buttons_2{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    header{
+        padding: 10px 0;
+    }
+    .wrapp{
+        margin: 10px 0;
+        flex-direction: column;
+    }
+    .header_nav{
+        margin-bottom: 10px;
+    }
+    .about_h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .about_descr{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .about_link a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:630px) {
+    .section{
+        padding: 30px 0;
+    }
+    .content_h1{
+        font-size: 40px;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+    }
+    #content_videos{
+        width: 100%;
+    }
+    .content_video-bg{
+        display: none;
+    }
+    .main_title{
+        margin-bottom: 200px;
+    }
+    .premium_content{
+        text-align: center;
+    }
+    .premium_bg{
+        height: 300px;
+        width: 100%;
+        background-position: left;
+    }
+    .premium_text{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .premium_p{
+        font-size: 14px;
+    }
+    .premium_content_2{
+        text-align: center;
+    }
+    .premium_bg_2{
+        height: 300px;
+        width: 100%;
+        background-position: left;
+    }
+    .premium_text_2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .premium_p_2{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    #content_videos{
+        height: auto;
+    }
+    .main_title{
+        font-size: 14px;
+    }
+    .about{
+        padding: 10px 12px;
+    }
+    .about_us{
+        margin-bottom: auto;
+    }
+    .about_h2{
+        font-size: 25px;
+    }
+    .about_descr{
+        font-size: 13px;
+    }
+    .about_link{
+        padding: 10px 18px;
+    }
+    .about_link a{
+        font-size: 13px;
+    }
+}
