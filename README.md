@@ -5,10 +5,10 @@
 
 ## About
 
-The first full-fledged layout of the site. One is missing adaptive layout.
+The first full-fledged layout of the site.
 
 ## Developers
 
-- [Dechi1321](https://github.com/Dechi1321)
+- [Dechi1321](https://github.com/siega52)
 
 ## License
