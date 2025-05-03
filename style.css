@@ -29,10 +29,9 @@ a{
 /* header start */
 .header{
     background-color: #000000;
-    /* position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0; */
+    z-index: 2;
 }
 
 .header_nav{
@@ -931,6 +930,13 @@ a{
     .container{
         padding: 0 20px;
     }
+    .popular_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .popular_card{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -978,11 +984,48 @@ a{
     .premium_buttons_2{
         justify-content: center;
     }
+    .join_img img{
+        width: 540px;
+        height: 340px;
+    }
+    .join_h{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .join_p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .join_footer{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:1000px) {
+    .join_img img{
+        width: 400px;
+        min-height: 200px;
+    }
+    .grow_wrapper{
+        flex-direction: column;
+    }
+    .grow_content{
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px) {
     header{
         padding: 10px 0;
+    }
+    .content_text{
+        font-size: 16px;
     }
     .wrapp{
         margin: 10px 0;
@@ -1002,6 +1045,39 @@ a{
     .about_link a{
         font-size: 12px;
     }
+    .join_content{
+        padding: 26px;
+    }
+    .grow_h{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .grow_p{
+        font-size: 14px;
+    }
+    .grow_wrapp_h{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .grow_wrapp_p{
+        font-size: 14px;
+    }
+    .grow_wrapp_card_one{
+        margin-bottom: 30px;
+    }
+    .grow_wrapp_center img{
+        width: 100%;
+        height: 500px;
+    }
+    .footer_content{
+        gap: 30px;
+    }
+    .pages_p, .cms_p, .account_p, .utility_p{
+        margin-bottom: 15px;
+    }
+    .pages_a, .cms_a, .account_a, .utilitu_a{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:630px) {
@@ -1009,7 +1085,7 @@ a{
         padding: 30px 0;
     }
     .content_h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .reviews{
         display: flex;
@@ -1054,6 +1130,51 @@ a{
     .premium_p_2{
         font-size: 14px;
     }
+    .popular_content h5{
+        font-size: 30px;
+    }
+    .popular_p{
+        font-size: 14px;
+    }
+    .join_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .join_info{
+        margin-bottom: 10px;
+    }
+    .learn_img{
+        margin-bottom: 10px;
+    }
+    .learn_h{
+        margin-bottom: 14px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .learn_p{
+        font-size: 14px;
+    }
+    .learn{
+        display: flex;
+        flex-direction: column;
+    }
+    .learn_card{
+        margin-bottom: 20px;
+    }
+    .start{
+        padding-bottom: 128px;
+    }
+    .start_h{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .start_p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:500px) {
@@ -1080,5 +1201,70 @@ a{
     }
     .about_link a{
         font-size: 13px;
+    }
+    .popular_card{
+        width: 100%;
+        min-height: 400px;
+    }
+    .popular_btn{
+        z-index: 1;
+    }
+    .join_img img{
+        width: 100%;
+        min-height: 200px;
+    }
+    .grow_wrapper{
+        padding-bottom: 0px;
+    }
+    .grow_wrapp_center img{
+        height: 350px;
+    }
+    .reviews_test{
+        padding: 22px 0px;
+    }
+    .reviews_test_h{
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .reviews_test_p{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .reviews_test_card{
+        padding: 16px;
+        min-width: 360px;
+    }
+    .reviews_test_rat{
+        margin-bottom: 10px;
+    }
+    .reviews_icon-star-full{
+        font-size: 20px;
+    }
+    .reviews_test_rat_p{
+        font-size: 14px;
+        margin-bottom: 28px;
+    }
+    .reviews_test_person_img{
+        width: 35px;
+        height: 35px;
+    }
+    .reviews_test_rat_h5{
+        font-size: 15px;
+    }
+    .reviews_test_rat_p2{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:360px) {
+    .popular_webflow{
+        font-size: 20px;
+    }
+    .popular_money{
+        font-size: 14px;
+    }
+    .popular_img{
+        width: 295px;
+        height: 295px;
     }
 }
